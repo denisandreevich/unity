@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8858527375364484149}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,8 @@ GameObject:
   - component: {fileID: 9028720775663911357}
   - component: {fileID: 2459506612370690546}
   - component: {fileID: -4725158334399342872}
-  m_Layer: 7
+  - component: {fileID: 6709057327837429212}
+  m_Layer: 0
   m_Name: post office
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,3 +149,24 @@ MonoBehaviour:
   car: {fileID: 7085460630238156685, guid: 6d4589dc9441a894fa3062b4c6855966, type: 3}
   time: 5
   maxCars: 3
+--- !u!65 &6709057327837429212
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7371418172102844520}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 9.68, y: 6.57, z: 8.53}
+  m_Center: {x: 0, y: 3, z: 0}
